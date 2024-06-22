@@ -8,7 +8,7 @@ const CONFIG = {
     email: "sho8029@naver.com",
     linkedin: "",
     github: "",
-    instagram: "",
+    instagram: "https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g",
     discord: "discordapp.com/users/725348374781624392",
     youtube: "https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g"
   },
