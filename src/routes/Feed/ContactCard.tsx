@@ -5,6 +5,8 @@ import {
   AiOutlineGithub,
   AiOutlineMail,
   AiFillLinkedin,
+  AiOutlineDiscord,
+  AiOutlineYoutube,
 } from "react-icons/ai"
 import styled from "@emotion/styled"
 
