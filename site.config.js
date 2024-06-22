@@ -14,7 +14,7 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `Special Thanks to`,
+      name: `Morethan_log & doyoon_log`,
       href: "https://github.com/morethanmin/morethan-log",
     },
   ],
