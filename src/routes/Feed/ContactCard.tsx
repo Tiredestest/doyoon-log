@@ -19,7 +19,6 @@ const ContactCard: React.FC = () => {
             href={`https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g/${CONFIG.profile.youtube}`}
             rel="noreferrer"
             target="_blank"
-            css={{ overflow: "hidden" }}
           >
             <AiOutlineyoutube className="icon" />
             <div className="name">youtube</div>
