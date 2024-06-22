@@ -6,8 +6,8 @@ import {
   AiOutlineMail,
   AiFillLinkedin,
   AiOutlineYoutube,
-  AiFillDiscord,
 } from "react-icons/ai"
+import { BiLogoDiscord } from "react-icons/bi";
 import styled from "@emotion/styled"
 
 const ContactCard: React.FC = () => {
