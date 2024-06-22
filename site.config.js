@@ -1,7 +1,7 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "tiredest",
+    name: "Tiredest",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "지속가능한 시간낭비",
     bio: "좀만 더 놀게요",
@@ -12,8 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      name: ``,
-      href: "",
+      name: `Special Thanks to`,
+      href: "https://github.com/morethanmin/morethan-log",
     },
   ],
   // blog setting (required)
