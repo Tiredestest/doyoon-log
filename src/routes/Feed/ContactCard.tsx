@@ -27,7 +27,7 @@ const ContactCard: React.FC = () => {
         )}
         {CONFIG.profile.instagram && (
           <a
-            href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
+            href={`https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g/${CONFIG.profile.instagram}`}
             rel="noreferrer"
             target="_blank"
           >
