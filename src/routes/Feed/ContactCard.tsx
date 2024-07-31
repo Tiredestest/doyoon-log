@@ -22,6 +22,7 @@ const ContactCard: React.FC = () => {
             href={`https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g/${CONFIG.profile.youtube}`}
             rel="noreferrer"
             target="_blank"
+            css={{ overflow: "hidden" }}
           >
             <AiOutlineyoutube className="icon" />
             <div className="name">youtube</div>
@@ -32,6 +33,7 @@ const ContactCard: React.FC = () => {
             href={`https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g/${CONFIG.profile.instagram}`}
             rel="noreferrer"
             target="_blank"
+            css={{ overflow: "hidden" }}
           >
             <AiOutlineInstagram className="icon" />
             <div className="name">instagram</div>
@@ -48,11 +50,12 @@ const ContactCard: React.FC = () => {
             <div className="name">email</div>
           </a>
         )}
-        {CONFIG.profile.stean && (
+        {CONFIG.profile.steam && (
           <a
             href={`https://steamcommunity.com/id/pgonehada/${CONFIG.profile.steam}`}
             rel="noreferrer"
             target="_blank"
+            css={{ overflow: "hidden" }}
           >
             <SiSteam className="icon" />
             <div className="name">Steam</div>
