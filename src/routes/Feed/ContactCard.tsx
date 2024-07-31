@@ -8,6 +8,8 @@ import {
   AiOutlineYoutube,
   AiFillDiscord,
 } from "react-icons/ai"
+import { SiSteam } from "react-icons/si";
+
 import styled from "@emotion/styled"
 
 const ContactCard: React.FC = () => {
@@ -46,14 +48,14 @@ const ContactCard: React.FC = () => {
             <div className="name">email</div>
           </a>
         )}
-        {CONFIG.profile.linkedin && (
+        {CONFIG.profile.stean && (
           <a
-            href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
+            href={`https://steamcommunity.com/id/pgonehada/${CONFIG.profile.steam}`}
             rel="noreferrer"
             target="_blank"
           >
-            <AiFillLinkedin className="icon" />
-            <div className="name">linkedin</div>
+            <SiSteam className="icon" />
+            <div className="name">Steam</div>
           </a>
         )}
       </StyledWrapper>
