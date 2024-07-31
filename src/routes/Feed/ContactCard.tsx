@@ -9,7 +9,6 @@ import {
   AiFillDiscord,
 } from "react-icons/ai"
 import { SiSteam } from "react-icons/si";
-
 import styled from "@emotion/styled"
 
 const ContactCard: React.FC = () => {
@@ -22,7 +21,6 @@ const ContactCard: React.FC = () => {
             href={`{CONFIG.profile.youtube}`}
             rel="noreferrer"
             target="_blank"
-            css={{ overflow: "hidden" }}
           >
             <AiOutlineyoutube className="icon" />
             <div className="name">youtube</div>
@@ -30,10 +28,9 @@ const ContactCard: React.FC = () => {
         )}
         {CONFIG.profile.youtube && (
           <a
-            href={`https://www.youtube.com/channel/${CONFIG.profile.youtube}`}
+            href={`https://www.youtube.com/channel/{CONFIG.profile.youtube}`}
             rel="noreferrer"
             target="_blank"
-            css={{ overflow: "hidden" }}
           >
             <AiOutlineYoutube className="icon" />
             <div className="name">youtube</div>
@@ -41,7 +38,7 @@ const ContactCard: React.FC = () => {
         )}
         {CONFIG.profile.email && (
           <a
-            href={`mailto:${CONFIG.profile.email}`}
+            href={`mailto:{CONFIG.profile.email}`}
             rel="noreferrer"
             target="_blank"
             css={{ overflow: "hidden" }}
