@@ -18,12 +18,12 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "",
+    title: "sustainable waste time",
     description: "",
   },
 
   // CONFIG configration (required)
-  link: "https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g",
+  link: "https://steamcommunity.com/id/pgonehada",
   since: 2022, // If leave this empty, current year will be used.
   lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
