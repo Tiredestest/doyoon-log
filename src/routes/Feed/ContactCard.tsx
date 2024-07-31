@@ -28,14 +28,14 @@ const ContactCard: React.FC = () => {
             <div className="name">youtube</div>
           </a>
         )}
-        {CONFIG.profile.instagram && (
+        {CONFIG.profile.youtube && (
           <a
-            href={`https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g/${CONFIG.profile.instagram}`}
+            href={`https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g/${CONFIG.profile.youtube}`}
             rel="noreferrer"
             target="_blank"
             css={{ overflow: "hidden" }}
           >
-            <AiOutlineInstagram className="icon" />
+            <AiOutlineYoutube className="icon" />
             <div className="name">instagram</div>
           </a>
         )}
