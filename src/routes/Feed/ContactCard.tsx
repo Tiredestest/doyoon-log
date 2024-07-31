@@ -36,7 +36,7 @@ const ContactCard: React.FC = () => {
             css={{ overflow: "hidden" }}
           >
             <AiOutlineYoutube className="icon" />
-            <div className="name">instagram</div>
+            <div className="name">youtube</div>
           </a>
         )}
         {CONFIG.profile.email && (
@@ -52,10 +52,9 @@ const ContactCard: React.FC = () => {
         )}
         {CONFIG.profile.steam && (
           <a
-            href={`https://steamcommunity.com/id/${CONFIG.profile.steam}`}
+            href={`{CONFIG.profile.steam}`}
             rel="noreferrer"
             target="_blank"
-            css={{ overflow: "hidden" }}
           >
             <SiSteam className="icon" />
             <div className="name">Steam</div>
