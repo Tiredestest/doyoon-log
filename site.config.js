@@ -6,9 +6,6 @@ const CONFIG = {
     role: "지속가능한 시간낭비",
     bio: "좀만 더 놀게요",
     email: "sho8029@naver.com",
-    linkedin: "",
-    github: "",
-    instagram: "https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g",
     discord: "discordapp.com/users/725348374781624392",
     youtube: "https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g",
     steam: "https://steamcommunity.com/id/pgonehada"
