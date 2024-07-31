@@ -19,7 +19,7 @@ const ContactCard: React.FC = () => {
       <StyledWrapper>
         {CONFIG.profile.youtube && (
           <a
-            href={`https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g/${CONFIG.profile.youtube}`}
+            href={`https://www.youtube.com/channel/{CONFIG.profile.youtube}`}
             rel="noreferrer"
             target="_blank"
             css={{ overflow: "hidden" }}
@@ -30,7 +30,7 @@ const ContactCard: React.FC = () => {
         )}
         {CONFIG.profile.youtube && (
           <a
-            href={`https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g/${CONFIG.profile.youtube}`}
+            href={`https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g${CONFIG.profile.youtube}`}
             rel="noreferrer"
             target="_blank"
             css={{ overflow: "hidden" }}
@@ -52,7 +52,7 @@ const ContactCard: React.FC = () => {
         )}
         {CONFIG.profile.steam && (
           <a
-            href={`https://steamcommunity.com/id/pgonehada/${CONFIG.profile.steam}`}
+            href={`https://steamcommunity.com/id/${CONFIG.profile.steam}`}
             rel="noreferrer"
             target="_blank"
             css={{ overflow: "hidden" }}
