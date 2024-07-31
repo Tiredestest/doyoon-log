@@ -19,7 +19,7 @@ const ContactCard: React.FC = () => {
       <StyledWrapper>
         {CONFIG.profile.youtube && (
           <a
-            href={`https://www.youtube.com/channel/{CONFIG.profile.youtube}`}
+            href={`{CONFIG.profile.youtube}`}
             rel="noreferrer"
             target="_blank"
             css={{ overflow: "hidden" }}
