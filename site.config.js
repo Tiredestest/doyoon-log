@@ -10,7 +10,7 @@ const CONFIG = {
     github: "",
     instagram: "https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g",
     discord: "discordapp.com/users/725348374781624392",
-    youtube: "https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g"
+    youtube: "https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g",
     steam: "https://steamcommunity.com/id/pgonehada"
   },
   projects: [
