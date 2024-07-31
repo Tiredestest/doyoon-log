@@ -5,7 +5,7 @@ import {
   AiOutlineGithub,
   AiOutlineMail,
   AiFillLinkedin,
-  AiOutlineYoutube,
+  AiFillYoutube,
   AiFillDiscord,
 } from "react-icons/ai"
 import { SiSteam } from "react-icons/si";
@@ -22,7 +22,7 @@ const ContactCard: React.FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineyoutube className="icon" />
+            <AiFillYoutube className="icon" />
             <div className="name">youtube</div>
           </a>
         )}
@@ -32,7 +32,7 @@ const ContactCard: React.FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineYoutube className="icon" />
+            <AiFillYoutube className="icon" />
             <div className="name">youtube</div>
           </a>
         )}
