@@ -30,7 +30,7 @@ const ContactCard: React.FC = () => {
         )}
         {CONFIG.profile.youtube && (
           <a
-            href={`https://www.youtube.com/channel/UCvi_L8vbY2AXdryRDcEeb8g${CONFIG.profile.youtube}`}
+            href={`https://www.youtube.com/channel/${CONFIG.profile.youtube}`}
             rel="noreferrer"
             target="_blank"
             css={{ overflow: "hidden" }}
